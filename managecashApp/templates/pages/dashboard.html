@@ -1,0 +1,41 @@
+{% extends 'base/base.html' %}
+
+{% block body %}
+
+<div class="row mt-4">
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Total Income</h5>
+        <p class="card-text">{{ total_income }}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Total Expense</h5>
+        <p class="card-text">{{ total_expense }}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Balance</h5>
+        <p class="card-text">{{ balance }}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</div>
+
+{% endblock body %}
